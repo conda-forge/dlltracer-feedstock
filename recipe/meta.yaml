@@ -1,5 +1,5 @@
 {% set name = "dlltracer" %}
-{% set version = "0.1.0a3" %}
+{% set version = "1.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dlltracer-{{ version }}.tar.gz
-  sha256: 4a0ce30739a3313baebc9fe907cec7ba161b1052038acf5f1a306c133b3c82db
+  sha256: 29a0987504e982b2d86ed7c89ae772037ec4ee70021177c26e3da28765213faa
 
 build:
   number: 0
