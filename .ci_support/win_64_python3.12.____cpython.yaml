@@ -1,9 +1,11 @@
 c_compiler:
 - vs2019
+c_stdlib:
+- vs
 channel_sources:
 - conda-forge
 channel_targets:
-- conda-forge dlltracer_dev
+- conda-forge main
 pin_run_as_build:
   python:
     min_pin: x.x
