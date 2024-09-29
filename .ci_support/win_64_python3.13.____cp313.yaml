@@ -5,7 +5,7 @@ c_stdlib:
 channel_sources:
 - conda-forge/label/python_rc,conda-forge
 channel_targets:
-- conda-forge dlltracer_dev
+- conda-forge main
 pin_run_as_build:
   python:
     min_pin: x.x
