@@ -11,13 +11,14 @@ source:
   sha256: 7749c30d6372bfb3e5c1d624b0d5d05580b7fc3de92dfaa4f41ef1e5180d219c
 
 build:
-  number: 1
+  number: 2
   skip: true  # [(not win) or (py<38)]
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
   host:
     - pip
     - python
