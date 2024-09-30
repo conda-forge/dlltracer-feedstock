@@ -79,14 +79,14 @@ Current release info
 Installing dlltracer
 ====================
 
-Installing `dlltracer` from the `conda-forge/label/dlltracer_dev` channel can be achieved by adding `conda-forge/label/dlltracer_dev` to your channels with:
+Installing `dlltracer` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
-conda config --add channels conda-forge/label/dlltracer_dev
+conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge/label/dlltracer_dev` channel has been enabled, `dlltracer` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `dlltracer` can be installed with `conda`:
 
 ```
 conda install dlltracer
@@ -101,26 +101,26 @@ mamba install dlltracer
 It is possible to list all of the versions of `dlltracer` available on your platform with `conda`:
 
 ```
-conda search dlltracer --channel conda-forge/label/dlltracer_dev
+conda search dlltracer --channel conda-forge
 ```
 
 or with `mamba`:
 
 ```
-mamba search dlltracer --channel conda-forge/label/dlltracer_dev
+mamba search dlltracer --channel conda-forge
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search dlltracer --channel conda-forge/label/dlltracer_dev
+mamba repoquery search dlltracer --channel conda-forge
 
 # List packages depending on `dlltracer`:
-mamba repoquery whoneeds dlltracer --channel conda-forge/label/dlltracer_dev
+mamba repoquery whoneeds dlltracer --channel conda-forge
 
 # List dependencies of `dlltracer`:
-mamba repoquery depends dlltracer --channel conda-forge/label/dlltracer_dev
+mamba repoquery depends dlltracer --channel conda-forge
 ```
 
 
